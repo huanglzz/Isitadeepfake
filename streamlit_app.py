@@ -32,7 +32,12 @@ def classify_image(image):
     return predicted_label
 
 # Streamlit app
-st.title("IsItADeepfake - Free Deepfake Detection App")
+logo = "images/logo.svg"
+st.image(logo, width=50)
+st.title("IsItADeepfake - Deepfake Detection App")
+  # Adjust width as needed
+
+# Add logo
 st.write("Upload an image to classify it as Real or Fake.")
 
 # File uploader
